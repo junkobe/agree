@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="0" failures="0" name="TestSuite" time="0.954" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\jdk\jdk1.8.0_31\jre\bin"/>
+    <property name="java.vm.version" value="25.31-b07"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\intellij\com.agree.base.redis-master"/>
+    <property name="java.runtime.version" value="1.8.0_31-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="E:\intellij\com.agree.base.redis-master"/>
+    <property name="java.endorsed.dirs" value="D:\jdk\jdk1.8.0_31\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="C:\Users\JUN\AppData\Local\Temp\surefirebooter1809924334403498292.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\JUN\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="D:\jdk\jdk1.8.0_31\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Python\pyinstall\Scripts\;D:\Python\pyinstall\;D:\OracleDB\app\product\11.2.0\dbhome_1\BIN\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\appServl\Apache24\bin;D:\appServl\mysql\bin;C:\Program Files\IDM Computer Solutions\UltraCompare;D:\SVN\install\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\tomcat\install\bin;D:\weblogic\install\user_projects\domains\base_domain\bin\;D:\ant\apache-ant-1.10.1\bin;D:\maven\apache-maven-3.3.9\bin;D:\SVN\server\bin;C:\Program Files (x86)\Google\Chrome\Application\;D:\Android_studio\sdk\platform-tools;D:\Android_studio\sdk\tools;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\putty\install\;D:\Gradle\gradle-4.0.1\bin;D:\gcc\install\bin;D:\jdk\jdk1.8.0_31\bin\;D:\jdk\jdk1.8.0_31\jre\bin\;D:\jdk\jdk1.8.0_31\jre\bin\server;D:\maven\apache-maven-3.3.9\bin;D:\node\;D:\node\npmdata\global;D:\github\Git\cmd;D:\ssh;C:\Users\JUN\AppData\Local\Microsoft\WindowsApps;C:\Users\JUN\AppData\Roaming\npm;."/>
+    <property name="surefire.test.class.path" value="E:\intellij\com.agree.base.redis-master\target\test-classes;E:\intellij\com.agree.base.redis-master\target\classes;D:\maven\apache-maven-3.3.9\repo\org\slf4j\slf4j-api\1.7.13\slf4j-api-1.7.13.jar;D:\maven\apache-maven-3.3.9\repo\org\slf4j\jcl-over-slf4j\1.7.13\jcl-over-slf4j-1.7.13.jar;D:\maven\apache-maven-3.3.9\repo\org\apache\logging\log4j\log4j-api\2.4.1\log4j-api-2.4.1.jar;D:\maven\apache-maven-3.3.9\repo\org\apache\logging\log4j\log4j-core\2.4.1\log4j-core-2.4.1.jar;D:\maven\apache-maven-3.3.9\repo\org\apache\logging\log4j\log4j-slf4j-impl\2.4.1\log4j-slf4j-impl-2.4.1.jar;D:\maven\apache-maven-3.3.9\repo\redis\clients\jedis\2.9.0\jedis-2.9.0.jar;D:\maven\apache-maven-3.3.9\repo\org\apache\commons\commons-pool2\2.4.2\commons-pool2-2.4.2.jar;D:\maven\apache-maven-3.3.9\repo\org\testng\testng\6.8\testng-6.8.jar;D:\maven\apache-maven-3.3.9\repo\junit\junit\4.10\junit-4.10.jar;D:\maven\apache-maven-3.3.9\repo\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;D:\maven\apache-maven-3.3.9\repo\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;D:\maven\apache-maven-3.3.9\repo\com\beust\jcommander\1.27\jcommander-1.27.jar;D:\maven\apache-maven-3.3.9\repo\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\JUN"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="user.name" value="JUN"/>
+    <property name="java.class.path" value="E:\intellij\com.agree.base.redis-master\target\test-classes;E:\intellij\com.agree.base.redis-master\target\classes;D:\maven\apache-maven-3.3.9\repo\org\slf4j\slf4j-api\1.7.13\slf4j-api-1.7.13.jar;D:\maven\apache-maven-3.3.9\repo\org\slf4j\jcl-over-slf4j\1.7.13\jcl-over-slf4j-1.7.13.jar;D:\maven\apache-maven-3.3.9\repo\org\apache\logging\log4j\log4j-api\2.4.1\log4j-api-2.4.1.jar;D:\maven\apache-maven-3.3.9\repo\org\apache\logging\log4j\log4j-core\2.4.1\log4j-core-2.4.1.jar;D:\maven\apache-maven-3.3.9\repo\org\apache\logging\log4j\log4j-slf4j-impl\2.4.1\log4j-slf4j-impl-2.4.1.jar;D:\maven\apache-maven-3.3.9\repo\redis\clients\jedis\2.9.0\jedis-2.9.0.jar;D:\maven\apache-maven-3.3.9\repo\org\apache\commons\commons-pool2\2.4.2\commons-pool2-2.4.2.jar;D:\maven\apache-maven-3.3.9\repo\org\testng\testng\6.8\testng-6.8.jar;D:\maven\apache-maven-3.3.9\repo\junit\junit\4.10\junit-4.10.jar;D:\maven\apache-maven-3.3.9\repo\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;D:\maven\apache-maven-3.3.9\repo\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;D:\maven\apache-maven-3.3.9\repo\com\beust\jcommander\1.27\jcommander-1.27.jar;D:\maven\apache-maven-3.3.9\repo\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\jdk\jdk1.8.0_31\jre"/>
+    <property name="sun.java.command" value="C:\Users\JUN\AppData\Local\Temp\surefirebooter1809924334403498292.jar C:\Users\JUN\AppData\Local\Temp\surefire1713266697231926038tmp C:\Users\JUN\AppData\Local\Temp\surefire8854104898655531034tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_31"/>
+    <property name="java.ext.dirs" value="D:\jdk\jdk1.8.0_31\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\jdk\jdk1.8.0_31\jre\lib\resources.jar;D:\jdk\jdk1.8.0_31\jre\lib\rt.jar;D:\jdk\jdk1.8.0_31\jre\lib\sunrsasign.jar;D:\jdk\jdk1.8.0_31\jre\lib\jsse.jar;D:\jdk\jdk1.8.0_31\jre\lib\jce.jar;D:\jdk\jdk1.8.0_31\jre\lib\charsets.jar;D:\jdk\jdk1.8.0_31\jre\lib\jfr.jar;D:\jdk\jdk1.8.0_31\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="D:\maven\apache-maven-3.3.9\repo"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+</testsuite>

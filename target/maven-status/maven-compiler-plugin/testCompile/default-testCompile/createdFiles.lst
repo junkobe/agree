@@ -1,0 +1,13 @@
+test\com\agree\base\util\TestList.class
+test\com\agree\base\util\TestThreadPool$1.class
+test\com\agree\base\util\TestStringUtil.class
+test\com\agree\base\util\TestDateUtil.class
+test\com\agree\base\gf\limit\dao\TestInitLimitDao.class
+test\com\agree\base\gf\limit\services\TestMigrateService.class
+test\com\agree\base\redis\TestJedisPoolUtil.class
+test\com\agree\base\util\TestThreadPool$2.class
+test\com\agree\base\gf\limit\services\TestLimitService.class
+test\com\agree\base\redis\TestJedisWritePoolUtil.class
+test\com\agree\base\util\TestNumberUtil.class
+test\com\agree\base\gf\limit\dao\TestAifAccountDao.class
+test\com\agree\base\util\TestThreadPool.class

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="redis" parallel="false">
+
+    <test name="testDemo2">
+        <!--<packages>-->
+        <!--<package name="test.com.agree.base"/>-->
+        <!--</packages>-->
+        <classes>
+            <class name="test.com.agree.base.gf.limit.dao.TestInitLimitDao"></class>
+            <!--<methods>-->
+            <!--<include name="testSetCfgLimitBean"></include>-->
+            <!--</methods>-->
+        </classes>
+    </test>
+
+
+</suite>

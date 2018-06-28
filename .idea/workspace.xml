@@ -1,0 +1,1740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="redis:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="26bff0e3-f829-40ca-94eb-56250ad60b6b" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.classpath" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_27.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_4_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_4_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_4_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_13.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_13.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_8.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.project" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/com.agree.base.redis.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/redis.eml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/redis.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/redis.userlibraries" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/META-INF/MANIFEST.MF" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/AppMain.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/base/ConfigHelper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/base/DateUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/base/NumberUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/base/StringUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/base/redis/CONST.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/base/redis/JedisPoolUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/base/redis/JedisReadPoolUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/base/redis/JedisWritePoolUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/bean/AifAccountBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/bean/CfgLimitBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/bean/InitLimitBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/bean/RESULTMAP.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/bean/RecordLimitBean.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/cfg/CONFIGS.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/dao/AccountDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/dao/AifAccountDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/dao/InitLimitDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/AccountService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/AifAccountService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/InitLimitService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/MigrateService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/readConfig.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/testNG.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/writeConfig.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/com/agree/base/gf/limit/dao/TestAifAccountDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/com/agree/base/gf/limit/dao/TestInitLimitDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/com/agree/base/gf/limit/services/TestLimitService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/com/agree/base/gf/limit/services/TestMigrateService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/com/agree/base/redis/TestJedisPoolUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/com/agree/base/redis/TestJedisWritePoolUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/com/agree/base/util/TestDateUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/com/agree/base/util/TestList.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/com/agree/base/util/TestNumberUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/com/agree/base/util/TestStringUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/com/agree/base/util/TestThreadPool.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/AppMain$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/AppMain.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/ConfigHelper.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/DateUtil.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/NumberUtil.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/StringUtil.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/CONST.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisPoolUtil$Hash.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisPoolUtil$Keys.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisPoolUtil$Lists.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisPoolUtil$Luas.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisPoolUtil$Scan.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisPoolUtil$Sets.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisPoolUtil$Size.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisPoolUtil$SortSet.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisPoolUtil$Strings.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisPoolUtil.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisReadPoolUtil$Hash.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisReadPoolUtil$Keys.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisReadPoolUtil$Lists.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisReadPoolUtil$Luas.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisReadPoolUtil$Pipe.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisReadPoolUtil$Scan.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisReadPoolUtil$Sets.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisReadPoolUtil$Size.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisReadPoolUtil$SortSet.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisReadPoolUtil$Strings.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisReadPoolUtil.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisWritePoolUtil$Hash.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisWritePoolUtil$Keys.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisWritePoolUtil$Lists.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisWritePoolUtil$Luas.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisWritePoolUtil$Pipe.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisWritePoolUtil$Scan.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisWritePoolUtil$Sets.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisWritePoolUtil$Size.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisWritePoolUtil$SortSet.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisWritePoolUtil$Strings.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisWritePoolUtil.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/bean/AifAccountBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/bean/CfgLimitBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/bean/InitLimitBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/bean/RESULTMAP.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/bean/RecordLimitBean.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/cfg/CONFIGS.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/dao/AccountDao.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/dao/AifAccountDao.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/dao/InitLimitDao.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/services/AccountService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/services/AifAccountService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/services/InitLimitService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/services/MigrateService$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/services/MigrateService$2.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/services/MigrateService$3.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/services/MigrateService$4.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/services/MigrateService$5.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/services/MigrateService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/log4j2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/readConfig.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/testNG.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/writeConfig.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/redis-1.0-SNAPSHOT-jar-with-dependencies.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/redis-1.0-SNAPSHOT-sources.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/redis-1.0-SNAPSHOT.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/failed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/redis/classes.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/redis/groups.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/redis/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/redis/main.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/redis/methods-alphabetical.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/redis/methods-not-run.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/redis/methods.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/redis/reporter-output.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/redis/testDemo2.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/redis/testng.xml.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/redis/toc.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/passed.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/redis/testDemo2.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/redis/testDemo2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/skipped.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/testng.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test/com/agree/base/gf/limit/dao/TestAifAccountDao.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test/com/agree/base/gf/limit/dao/TestInitLimitDao.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test/com/agree/base/gf/limit/services/TestLimitService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test/com/agree/base/gf/limit/services/TestMigrateService.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test/com/agree/base/redis/TestJedisPoolUtil.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test/com/agree/base/redis/TestJedisWritePoolUtil.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test/com/agree/base/util/TestDateUtil.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test/com/agree/base/util/TestList.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test/com/agree/base/util/TestNumberUtil.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test/com/agree/base/util/TestStringUtil.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test/com/agree/base/util/TestThreadPool$1.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test/com/agree/base/util/TestThreadPool$2.class" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test/com/agree/base/util/TestThreadPool.class" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AppMain.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/AppMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MigrateService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/MigrateService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4925">
+              <caret line="311" column="19" lean-forward="true" selection-start-line="311" selection-start-column="19" selection-end-line="311" selection-end-column="19" />
+              <folding>
+                <element signature="method#pipelineConverToRedis#0;class#MigrateService#0" expanded="false" />
+                <element signature="method#pipelineThreadConverToRedis#0;class#MigrateService#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/gf/limit/dao/AccountDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="58" lean-forward="false" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AifAccountService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/AifAccountService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InitLimitService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/InitLimitService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1475">
+              <caret line="69" column="38" lean-forward="false" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/AccountService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+              <folding>
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#215#216#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AifAccountDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/gf/limit/dao/AifAccountDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JedisWritePoolUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/base/redis/JedisWritePoolUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13975">
+              <caret line="590" column="23" lean-forward="false" selection-start-line="590" selection-start-column="23" selection-end-line="590" selection-end-column="23" />
+              <folding>
+                <element signature="e#3486#3487#0" expanded="true" />
+                <element signature="e#3515#3516#0" expanded="true" />
+                <element signature="e#4684#4685#0" expanded="true" />
+                <element signature="e#4711#4712#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readConfig.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/readConfig.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="writeConfig.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/writeConfig.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getInstance</find>
+      <find>initJedisPool</find>
+      <find>instance</find>
+      <find>getJ</find>
+      <find>scan</find>
+      <find>hg</find>
+      <find>hget</find>
+      <find>mset</find>
+      <find>hash</find>
+      <find>mget</find>
+      <find>mse</find>
+      <find>maven-surefire-plugin</find>
+      <find>org.apache.maven.plugins</find>
+      <find>list</find>
+      <find>lists</find>
+      <find>test</find>
+      <find>init</find>
+      <find>hmsetConverToRedis</find>
+      <find>closeJ</find>
+      <find>40000</find>
+      <find>JedisWritePoolUtil.</find>
+      <find>jhmsetMultKeyInitLimitBean</find>
+      <find>JeidsPool init success!</find>
+      <find>pi</find>
+      <find>dbSize</find>
+      <find>hmset</find>
+      <find>getIn</find>
+      <find>pipe</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agree/base/redis/JedisWriterPoolUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agree/base/StringUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/AifAccountService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/LimitService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/com/agree/base/gf/limit/dao/TestAifAccountDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/com/agree/base/gf/limit/dao/TestCfgLimitDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/com/agree/base/gf/limit/services/TestLimitService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agree/testdemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/dao/CfgLimitDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/dao/RecordLimitDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/testNG.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/test/com/agree/base/gf/limit/services/TestMigrateService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/com/agree/base/util/TestNumberUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/bean/InitLimitBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agree/base/redis/LuaScript.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agree/base/NumberUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agree/base/redis/JedisPoolUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/com/agree/base/util/TestThreadPool.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/com/agree/base/gf/limit/dao/TestInitLimitDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/com/agree/base/redis/TestJedisWritePoolUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/com/agree/base/redis/TestJedisPoolUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agree/base/redis/JedisReadPoolUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/bean/AifAccountBean.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/dao/InitLimitDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test/com/agree/base/util/TestList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/InitLimitService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/dao/AifAccountDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/dao/AccountListDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agree/base/redis/JedisWritePoolUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/dao/AccountDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/AccountService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agree/AppMain.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/writeConfig.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/MigrateService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/readConfig.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\apache-maven-3.3.9\repo" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="redis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="redis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="redis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Usability &gt; Icons</id>
+          </State>
+          <State>
+            <id>Android Lint for Kotlin</id>
+          </State>
+          <State>
+            <id>Ant inspections</id>
+          </State>
+          <State>
+            <id>Application Server Specific Inspections</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Declaration redundancyJava</id>
+          </State>
+          <State>
+            <id>Faces Model</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Hibernate Issues</id>
+          </State>
+          <State>
+            <id>Initialization issuesJava</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>JBoss Seam issues</id>
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
+            <id>JSON</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java EE issues</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>RegExp</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Struts</id>
+          </State>
+          <State>
+            <id>Struts 1Struts</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>UI Form Problems</id>
+          </State>
+          <State>
+            <id>Validity issuesGroovy</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XMLSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Duplicates</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.agree.base.redis-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.agree.base.redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.agree.base.redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.agree.base.redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.agree.base.redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="agree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.agree.base.redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="agree" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.agree.base.redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="agree" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.agree.base.redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="agree" type="462c0819:PsiDirectoryNode" />
+              <item name="limit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.agree.base.redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="agree" type="462c0819:PsiDirectoryNode" />
+              <item name="limit" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.agree.base.redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="agree" type="462c0819:PsiDirectoryNode" />
+              <item name="limit" type="462c0819:PsiDirectoryNode" />
+              <item name="cfg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.agree.base.redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="agree" type="462c0819:PsiDirectoryNode" />
+              <item name="limit" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.agree.base.redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="agree" type="462c0819:PsiDirectoryNode" />
+              <item name="limit" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.agree.base.redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.agree.base.redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.agree.base.redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.agree.base.redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="redis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com.agree.base.redis-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Console" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.38549075" />
+    <property name="last_opened_file_path" value="E:/" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\intellij\com.agree.base.redis-master\lib" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.agree.base.redis" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\intellij\com.agree.base.redis-master\lib" />
+      <recent name="E:\intellij\com.agree.base.redis-master\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.AppMain">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="AppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.agree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.agree.AppMain" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="0 50 0 0" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="redis" />
+      <envs />
+    </configuration>
+    <configuration name="InitLimitDao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.agree.gf.limit.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.agree.gf.limit.dao.InitLimitDao" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="redis" />
+      <envs />
+    </configuration>
+    <configuration name="MigrateService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.agree.gf.limit.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.agree.gf.limit.services.MigrateService" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="redis" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="TestList.testAddall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.com.agree.base.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="redis" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.com.agree.base.util" />
+      <option name="MAIN_CLASS_NAME" value="test.com.agree.base.util.TestList" />
+      <option name="METHOD_NAME" value="testAddall" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TestThreadPool.testThreads" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="test.com.agree.base.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="redis" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.com.agree.base.util" />
+      <option name="MAIN_CLASS_NAME" value="test.com.agree.base.util.TestThreadPool" />
+      <option name="METHOD_NAME" value="testThreads" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="package -X" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+                <option value="-X" />
+                <option value="-Dmaven.test.skip=true" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Maven.package -X" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AppMain" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MigrateService" />
+      <item index="3" class="java.lang.String" itemvalue="Application.InitLimitDao" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestThreadPool.testThreads" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.TestList.testAddall" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.AppMain" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestList.testAddall" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MigrateService" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestThreadPool.testThreads" />
+        <item index="4" class="java.lang.String" itemvalue="Application.InitLimitDao" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26bff0e3-f829-40ca-94eb-56250ad60b6b" name="Default" comment="" />
+      <created>1528944523017</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1528944523017</updated>
+      <workItem from="1528944530370" duration="1891000" />
+      <workItem from="1528969239972" duration="597000" />
+      <workItem from="1528976153960" duration="613000" />
+      <workItem from="1528976826634" duration="88000" />
+      <workItem from="1528982385173" duration="7309000" />
+      <workItem from="1529024373322" duration="18697000" />
+      <workItem from="1529307941528" duration="5676000" />
+      <workItem from="1529370058883" duration="17801000" />
+      <workItem from="1529403806000" duration="10277000" />
+      <workItem from="1529419683829" duration="5857000" />
+      <workItem from="1529456190827" duration="6433000" />
+      <workItem from="1529462647878" duration="22500000" />
+      <workItem from="1529505401513" duration="5204000" />
+      <workItem from="1529559290337" duration="16475000" />
+      <workItem from="1529629775546" duration="20963000" />
+      <workItem from="1529719512613" duration="17942000" />
+      <workItem from="1529753756127" duration="9669000" />
+      <workItem from="1529889172343" duration="1975000" />
+      <workItem from="1529892351732" duration="2937000" />
+      <workItem from="1529897045228" duration="28365000" />
+      <workItem from="1529974664876" duration="517000" />
+      <workItem from="1529975904615" duration="2794000" />
+      <workItem from="1529980059042" duration="1331000" />
+      <workItem from="1530003782632" duration="9120000" />
+      <workItem from="1530029718596" duration="257000" />
+      <workItem from="1530061950275" duration="937000" />
+      <workItem from="1530064560062" duration="32824000" />
+      <workItem from="1530109451634" duration="4463000" />
+      <workItem from="1530147346835" duration="4645000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestList_testAddall - 2018.06.27 at 14h 55m 37s.xml">
+      <configuration name="TestList.testAddall" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestList_testAddall - 2018.06.27 at 15h 14m 52s.xml">
+      <configuration name="TestList.testAddall" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestThreadPool_testThreads - 2018.06.23 at 20h 46m 37s.xml">
+      <configuration name="TestThreadPool.testThreads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestThreadPool_testThreads - 2018.06.23 at 20h 46m 59s.xml">
+      <configuration name="TestThreadPool.testThreads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestThreadPool_testThreads - 2018.06.23 at 20h 48m 02s.xml">
+      <configuration name="TestThreadPool.testThreads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestThreadPool_testThreads - 2018.06.23 at 20h 48m 13s.xml">
+      <configuration name="TestThreadPool.testThreads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestThreadPool_testThreads - 2018.06.23 at 20h 48m 53s.xml">
+      <configuration name="TestThreadPool.testThreads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestThreadPool_testThreads - 2018.06.23 at 20h 51m 57s.xml">
+      <configuration name="TestThreadPool.testThreads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestThreadPool_testThreads - 2018.06.23 at 21h 05m 42s.xml">
+      <configuration name="TestThreadPool.testThreads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestThreadPool_testThreads - 2018.06.23 at 21h 07m 14s.xml">
+      <configuration name="TestThreadPool.testThreads" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="258157000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.67763156" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.67763156" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2549168" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34046054" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2624811" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/redis.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="121" column="66" lean-forward="false" selection-start-line="121" selection-start-column="60" selection-end-line="121" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/testNG.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.agree.base.redis.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/jdk1.8.0_31/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-231">
+          <caret line="707" column="12" lean-forward="false" selection-start-line="707" selection-start-column="12" selection-end-line="707" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/jdk1.8.0_31/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="1029" column="24" lean-forward="false" selection-start-line="1029" selection-start-column="24" selection-end-line="1029" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/jdk1.8.0_31/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11825">
+          <caret line="500" column="22" lean-forward="false" selection-start-line="500" selection-start-column="22" selection-end-line="500" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/jdk1.8.0_31/src.zip!/java/lang/InterruptedException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="49" column="6" lean-forward="false" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/base/redis/CONST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/gf/limit/bean/CfgLimitBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/gf/limit/cfg/CONFIGS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/base/redis/LuaScript.java" />
+    <entry file="jar://D:/jdk/jdk1.8.0_31/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="263" column="14" lean-forward="false" selection-start-line="263" selection-start-column="14" selection-end-line="263" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/jdk/jdk1.8.0_31/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8725">
+          <caret line="87" column="34" lean-forward="false" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/base/redis/JedisPoolUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="1618" column="5" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="1618" selection-end-column="5" />
+          <folding>
+            <element signature="e#739#740#0" expanded="false" />
+            <element signature="e#787#788#0" expanded="false" />
+            <element signature="e#3521#3522#0" expanded="false" />
+            <element signature="e#3550#3551#0" expanded="false" />
+            <element signature="e#4678#4679#0" expanded="false" />
+            <element signature="e#4705#4706#0" expanded="false" />
+            <element signature="e#4822#4823#0" expanded="false" />
+            <element signature="e#4849#4850#0" expanded="false" />
+            <element signature="method#expireAt#0;class#Keys#0;class#JedisPoolUtil#0" expanded="false" />
+            <element signature="docComment;method#ttl#0;class#Keys#0;class#JedisPoolUtil#0" expanded="false" />
+            <element signature="method#ttl#0;class#Keys#0;class#JedisPoolUtil#0" expanded="false" />
+            <element signature="docComment;method#persist#0;class#Keys#0;class#JedisPoolUtil#0" expanded="false" />
+            <element signature="method#persist#0;class#Keys#0;class#JedisPoolUtil#0" expanded="false" />
+            <element signature="docComment;method#flushAll#0;class#Keys#0;class#JedisPoolUtil#0" expanded="false" />
+            <element signature="method#flushAll#0;class#Keys#0;class#JedisPoolUtil#0" expanded="false" />
+            <element signature="docComment;method#exists#0;class#Keys#0;class#JedisPoolUtil#0" expanded="false" />
+            <element signature="method#exists#0;class#Keys#0;class#JedisPoolUtil#0" expanded="false" />
+            <element signature="method#rename#0;class#Keys#0;class#JedisPoolUtil#0" expanded="false" />
+            <element signature="docComment;method#renamenx#0;class#Keys#0;class#JedisPoolUtil#0" expanded="false" />
+            <element signature="method#renamenx#0;class#Keys#0;class#JedisPoolUtil#0" expanded="false" />
+            <element signature="method#rename#1;class#Keys#0;class#JedisPoolUtil#0" expanded="false" />
+            <element signature="docComment;method#del#0;class#Keys#0;class#JedisPoolUtil#0" expanded="false" />
+            <element signature="method#del#0;class#Keys#0;class#JedisPoolUtil#0" expanded="false" />
+            <element signature="docComment;method#del#1;class#Keys#0;class#JedisPoolUtil#0" expanded="false" />
+            <element signature="method#del#1;class#Keys#0;class#JedisPoolUtil#0" expanded="false" />
+            <element signature="docComment;method#sort#0;class#Keys#0;class#JedisPoolUtil#0" expanded="false" />
+            <element signature="method#sort#0;class#Keys#0;class#JedisPoolUtil#0" expanded="false" />
+            <element signature="docComment;method#sort#1;class#Keys#0;class#JedisPoolUtil#0" expanded="false" />
+            <element signature="method#sort#1;class#Keys#0;class#JedisPoolUtil#0" expanded="false" />
+            <element signature="method#type#0;class#Keys#0;class#JedisPoolUtil#0" expanded="false" />
+            <element signature="method#keys#0;class#Keys#0;class#JedisPoolUtil#0" expanded="false" />
+            <element signature="class#Sets#0;class#JedisPoolUtil#0" expanded="false" />
+            <element signature="e#36775#36776#0" expanded="false" />
+            <element signature="e#36835#36836#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/base/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/base/NumberUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/base/StringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/com/agree/base/gf/limit/dao/TestAifAccountDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/com/agree/base/gf/limit/services/TestLimitService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/com/agree/base/gf/limit/services/TestMigrateService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/com/agree/base/util/TestDateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/com/agree/base/util/TestStringUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/com/agree/base/util/TestNumberUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/com/agree/base/util/TestThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="37" column="17" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="39" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/base/ConfigHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/com/agree/base/gf/limit/dao/TestInitLimitDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="25" column="9" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/gf/limit/bean/InitLimitBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2575">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Jedis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="1438" column="67" lean-forward="false" selection-start-line="1438" selection-start-column="61" selection-end-line="1438" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/Response.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="7" column="51" lean-forward="true" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/PipelineBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="495" column="17" lean-forward="false" selection-start-line="495" selection-start-column="17" selection-end-line="495" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/redis/clients/jedis/2.9.0/jedis-2.9.0.jar!/redis/clients/jedis/JedisSentinelPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="183" column="21" lean-forward="true" selection-start-line="183" selection-start-column="21" selection-end-line="183" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/com/agree/base/redis/TestJedisWritePoolUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/com/agree/base/redis/TestJedisPoolUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/gf/limit/bean/RESULTMAP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/gf/limit/bean/RecordLimitBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1100">
+          <caret line="6" column="14" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/gf/limit/bean/AifAccountBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="79" column="32" lean-forward="false" selection-start-line="79" selection-start-column="32" selection-end-line="79" selection-end-column="32" />
+          <folding>
+            <element signature="e#1695#1696#0" expanded="false" />
+            <element signature="e#1751#1752#0" expanded="false" />
+            <element signature="e#1809#1810#0" expanded="false" />
+            <element signature="e#1859#1860#0" expanded="false" />
+            <element signature="e#1921#1922#0" expanded="false" />
+            <element signature="e#1975#1976#0" expanded="false" />
+            <element signature="e#2333#2334#0" expanded="false" />
+            <element signature="e#2372#2373#0" expanded="false" />
+            <element signature="e#2412#2413#0" expanded="false" />
+            <element signature="e#2448#2449#0" expanded="false" />
+            <element signature="e#2490#2491#0" expanded="false" />
+            <element signature="e#2528#2529#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/base/redis/JedisReadPoolUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5200">
+          <caret line="235" column="38" lean-forward="false" selection-start-line="235" selection-start-column="38" selection-end-line="235" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#3472#3473#0" expanded="false" />
+            <element signature="e#3501#3502#0" expanded="false" />
+            <element signature="e#4629#4630#0" expanded="false" />
+            <element signature="e#4656#4657#0" expanded="false" />
+            <element signature="e#4681#4682#0" expanded="false" />
+            <element signature="e#4708#4709#0" expanded="false" />
+            <element signature="e#4773#4774#0" expanded="false" />
+            <element signature="e#4800#4801#0" expanded="false" />
+            <element signature="e#4832#4833#0" expanded="false" />
+            <element signature="e#4862#4863#0" expanded="false" />
+            <element signature="e#4890#4891#0" expanded="false" />
+            <element signature="e#4918#4919#0" expanded="false" />
+            <element signature="e#4944#4945#0" expanded="false" />
+            <element signature="e#4971#4972#0" expanded="false" />
+            <element signature="e#4997#4998#0" expanded="false" />
+            <element signature="e#5024#5025#0" expanded="false" />
+            <element signature="e#5056#5057#0" expanded="false" />
+            <element signature="e#5086#5087#0" expanded="false" />
+            <element signature="e#7314#7315#0" expanded="false" />
+            <element signature="e#7364#7365#0" expanded="false" />
+            <element signature="e#32055#32056#0" expanded="false" />
+            <element signature="e#32141#32142#0" expanded="false" />
+            <element signature="e#32335#32336#0" expanded="false" />
+            <element signature="e#32401#32402#0" expanded="false" />
+            <element signature="e#36874#36875#0" expanded="false" />
+            <element signature="e#36934#36935#0" expanded="false" />
+            <element signature="e#38789#38790#0" expanded="false" />
+            <element signature="e#38869#38870#0" expanded="false" />
+            <element signature="e#43191#43192#0" expanded="false" />
+            <element signature="e#43264#43265#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test/com/agree/base/util/TestList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/gf/limit/dao/InitLimitDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3150">
+          <caret line="153" column="25" lean-forward="false" selection-start-line="153" selection-start-column="25" selection-end-line="153" selection-end-column="25" />
+          <folding>
+            <element signature="method#jhmsetMultKeyInitLimitBean#0;class#InitLimitDao#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/gf/limit/dao/AifAccountDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/AifAccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/InitLimitService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1475">
+          <caret line="69" column="38" lean-forward="false" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/base/redis/JedisWritePoolUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13975">
+          <caret line="590" column="23" lean-forward="false" selection-start-line="590" selection-start-column="23" selection-end-line="590" selection-end-column="23" />
+          <folding>
+            <element signature="e#3486#3487#0" expanded="true" />
+            <element signature="e#3515#3516#0" expanded="true" />
+            <element signature="e#4684#4685#0" expanded="true" />
+            <element signature="e#4711#4712#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/gf/limit/dao/AccountDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="58" lean-forward="false" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/readConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/writeConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/MigrateService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4925">
+          <caret line="311" column="19" lean-forward="true" selection-start-line="311" selection-start-column="19" selection-end-line="311" selection-end-column="19" />
+          <folding>
+            <element signature="method#pipelineConverToRedis#0;class#MigrateService#0" expanded="false" />
+            <element signature="method#pipelineThreadConverToRedis#0;class#MigrateService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/AppMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>redis:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>redis</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38549075" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.beust:jcommander:1.27</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.38549075" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
