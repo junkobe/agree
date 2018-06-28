@@ -31,7 +31,7 @@ public class MigrateService {
         do{
 //            Date oneStart = new Date();
 //            Date scanStart = new Date();
-            ScanResult<String> result = JedisReadPoolUtil.getInstance().scan().scan(cursor,"A_*",150);
+            ScanResult<String> result = JedisReadPoolUtil.getInstance().scan().scan(cursor,"A_*",30000);
 //            Date scanEnd = new Date();
             List<String> keys = result.getResult();
 //            System.out.println("扫描时间："+format.format(scanStart)+"-"+format.format(scanEnd)+String.format(",获取%d个",keys.size()));
@@ -240,59 +240,170 @@ public class MigrateService {
 
     }
 
+//    private void hmsetConverToRedis(List<String> keys){
+//        InitLimitService initLimitService = new InitLimitService();
+////        AccountService accountService = new AccountService();
+//        List<Future> tasks = new ArrayList<>();
+//        for(String key : keys){
+//            tasks.add(threadPool.submit(new Runnable() {
+//                @Override
+//                public void run() {
+//                    String accountNo = key.substring(2);
+////                    boolean isExist = accountService.exist("successaccounts",accountNo);
+////                    if(isExist){
+////                        return;
+////                    }
+//                    Map<String ,String> map = JedisReadPoolUtil.getInstance().hash().hgetAll(key);
+//                    AifAccountBean bean = new AifAccountBean(
+//                            accountNo,
+//                            map.get("aif_normal_single"),
+//                            map.get("aif_normal_day"),
+//                            map.get("aif_normal_month")
+//                            );
+//                    String rs = initLimitService.jhmsetInitLimit(bean);
+//                    if(rs.equals("OK")){
+////                        JedisWritePoolUtil.getInstance().lists().lpush("successaccounts",accountNo);
+//                        JedisWritePoolUtil.getInstance().sets().sadd("successaccounts",accountNo);
+//                    }else {
+////                        JedisWritePoolUtil.getInstance().lists().lpush("failaccounts",accountNo);
+//                        JedisWritePoolUtil.getInstance().sets().sadd("failaccounts",accountNo);
+//                    }
+//
+//
+//                }
+//            }));
+//        }
+//
+//        boolean flag = false;
+//        while(!flag){
+//            for(Future task:tasks){
+//                if(task.isDone()){
+//                    flag = true;
+//                }else{
+//                    flag = false;
+//                    break;
+//                }
+//            }
+//        }
+//        tasks.clear();
+////        tasks = null;
+//
+//
+//    }
+
     private void hmsetConverToRedis(List<String> keys){
         InitLimitService initLimitService = new InitLimitService();
-        AccountService accountService = new AccountService();
+//        AccountService accountService = new AccountService();
+        List<String> partKeys = new ArrayList<>();
+        int count = 0;
         List<Future> tasks = new ArrayList<>();
         for(String key : keys){
-            tasks.add(threadPool.submit(new Runnable() {
-                @Override
-                public void run() {
-                    String accountNo = key.substring(2);
+            partKeys.add(key);
+            count++;
+            if((count%300==0)||(count==keys.size())){
+                for(String akey:partKeys){
+                    tasks.add(threadPool.submit(new Runnable() {
+                        @Override
+                        public void run() {
+                            String accountNo = akey.substring(2);
 //                    boolean isExist = accountService.exist("successaccounts",accountNo);
 //                    if(isExist){
 //                        return;
 //                    }
-                    Map<String ,String> map = JedisReadPoolUtil.getInstance().hash().hgetAll(key);
-                    AifAccountBean bean = new AifAccountBean(
-                            accountNo,
-                            map.get("aif_normal_single"),
-                            map.get("aif_normal_day"),
-                            map.get("aif_normal_month")
-        //                    map.get("aif_large_single"),
-        //                    map.get("aif_large_day"),
-        //                    map.get("aif_large_month")
+                            Map<String ,String> map = JedisReadPoolUtil.getInstance().hash().hgetAll(akey);
+                            AifAccountBean bean = new AifAccountBean(
+                                    accountNo,
+                                    map.get("aif_normal_single"),
+                                    map.get("aif_normal_day"),
+                                    map.get("aif_normal_month")
                             );
-                    String rs = initLimitService.jhmsetInitLimit(bean);
-                    if(rs.equals("OK")){
+                            String rs = initLimitService.jhmsetInitLimit(bean);
+                            if(rs.equals("OK")){
 //                        JedisWritePoolUtil.getInstance().lists().lpush("successaccounts",accountNo);
-                        JedisWritePoolUtil.getInstance().sets().sadd("successaccounts",accountNo);
-                    }else {
+                                JedisWritePoolUtil.getInstance().sets().sadd("successaccounts",accountNo);
+                            }else {
 //                        JedisWritePoolUtil.getInstance().lists().lpush("failaccounts",accountNo);
-                        JedisWritePoolUtil.getInstance().sets().sadd("failaccounts",accountNo);
+                                JedisWritePoolUtil.getInstance().sets().sadd("failaccounts",accountNo);
+                            }
+
+
+                        }
+                    }));
+                }
+                //if
+                boolean flag = false;
+                while(!flag){
+                    for(Future task:tasks){
+                        if(task.isDone()){
+                            flag = true;
+                        }else{
+                            flag = false;
+                            break;
+                        }
                     }
-
-
                 }
-            }));
-        }
+                tasks.clear();
 
-        boolean flag = false;
-        while(!flag){
-            for(Future task:tasks){
-                if(task.isDone()){
-                    flag = true;
-                }else{
-                    flag = false;
-                    break;
-                }
+
             }
+
         }
-        tasks.clear();
+
+
 //        tasks = null;
 
 
     }
+
+
+//    private void hmsetOneKeyConverToRedis1(List<String> keys){
+//        InitLimitService initLimitService = new InitLimitService();
+//        AccountService accountService = new AccountService();
+//        List<Future> tasks = new ArrayList<>();
+//        List<String> partKeys = new ArrayList<>();
+//        for (String key : keys){
+//
+//            tasks.add(threadPool.submit(new Runnable() {
+//                @Override
+//                public void run() {
+//                    String accountNo = key.substring(2);
+////                    boolean isExist = accountService.exist("successaccounts",accountNo);
+////                    if(isExist){
+////                        return;
+////                    }
+//                    Map<String ,String> map = JedisReadPoolUtil.getInstance().hash().hgetAll(key);
+//                    AifAccountBean bean = new AifAccountBean(
+//                            accountNo,
+//                            map.get("aif_normal_single"),
+//                            map.get("aif_normal_day"),
+//                            map.get("aif_normal_month"));
+//                    String rs = initLimitService.jhmsetOnekeyInitLimit(bean);
+//                    if(rs.equals("OK")){
+////                        JedisWritePoolUtil.getInstance().lists().lpush("successaccounts",accountNo);
+//                        JedisWritePoolUtil.getInstance().sets().sadd("successaccounts",accountNo);
+//                    }else{
+////                        JedisWritePoolUtil.getInstance().lists().lpush("failaccounts",accountNo);
+//                        JedisWritePoolUtil.getInstance().sets().sadd("failaccounts",accountNo);
+//                    }
+//                }
+//            }));
+//
+//        }
+//        boolean flag = false;
+//        while(!flag){
+//            for(Future task:tasks){
+//                if(task.isDone()){
+//                    flag = true;
+//                }else{
+//                    flag = false;
+//                    break;
+//                }
+//            }
+//        }
+//        tasks.clear();
+//
+//    }
+
 
     private void hmsetOneKeyConverToRedis1(List<String> keys){
         InitLimitService initLimitService = new InitLimitService();
@@ -301,47 +412,62 @@ public class MigrateService {
         List<String> partKeys = new ArrayList<>();
         int count = 0;
         for (String key : keys){
-
-            tasks.add(threadPool.submit(new Runnable() {
-                @Override
-                public void run() {
-                    String accountNo = key.substring(2);
+            partKeys.add(key);
+            count++;
+            if((count%300==0)||(count==keys.size())){
+                for(String akey : partKeys){
+                    tasks.add(threadPool.submit(new Runnable() {
+                        @Override
+                        public void run() {
+                            String accountNo = akey.substring(2);
 //                    boolean isExist = accountService.exist("successaccounts",accountNo);
 //                    if(isExist){
 //                        return;
 //                    }
-                    Map<String ,String> map = JedisReadPoolUtil.getInstance().hash().hgetAll(key);
-                    AifAccountBean bean = new AifAccountBean(
-                            accountNo,
-                            map.get("aif_normal_single"),
-                            map.get("aif_normal_day"),
-                            map.get("aif_normal_month"));
-                    String rs = initLimitService.jhmsetOnekeyInitLimit(bean);
-                    if(rs.equals("OK")){
+                            Map<String ,String> map = JedisReadPoolUtil.getInstance().hash().hgetAll(akey);
+                            AifAccountBean bean = new AifAccountBean(
+                                    accountNo,
+                                    map.get("aif_normal_single"),
+                                    map.get("aif_normal_day"),
+                                    map.get("aif_normal_month"));
+                            String rs = initLimitService.jhmsetOnekeyInitLimit(bean);
+                            if(rs.equals("OK")){
 //                        JedisWritePoolUtil.getInstance().lists().lpush("successaccounts",accountNo);
-                        JedisWritePoolUtil.getInstance().sets().sadd("successaccounts",accountNo);
-                    }else{
+                                JedisWritePoolUtil.getInstance().sets().sadd("successaccounts",accountNo);
+                            }else{
 //                        JedisWritePoolUtil.getInstance().lists().lpush("failaccounts",accountNo);
-                        JedisWritePoolUtil.getInstance().sets().sadd("failaccounts",accountNo);
+                                JedisWritePoolUtil.getInstance().sets().sadd("failaccounts",accountNo);
+                            }
+                        }
+                    }));
+                }
+
+                boolean flag = false;
+                while(!flag){
+                    for(Future task:tasks){
+                        if(task.isDone()){
+                            flag = true;
+                        }else{
+                            flag = false;
+                            break;
+                        }
                     }
                 }
-            }));
+                tasks.clear();
+                partKeys.clear();
+
+            }
 
         }
-        boolean flag = false;
-        while(!flag){
-            for(Future task:tasks){
-                if(task.isDone()){
-                    flag = true;
-                }else{
-                    flag = false;
-                    break;
-                }
-            }
-        }
-        tasks.clear();
+
+
+
 
     }
+
+
+
+
 
     private void hmsetOneKeyConverToRedis(List<String> keys){
         InitLimitService initLimitService = new InitLimitService();

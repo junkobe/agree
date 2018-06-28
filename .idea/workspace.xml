@@ -7,184 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26bff0e3-f829-40ca-94eb-56250ad60b6b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.classpath" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_27.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_4_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_4_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_4_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_13.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_13.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_8.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.project" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/com.agree.base.redis.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/redis.eml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/redis.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/redis.userlibraries" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/META-INF/MANIFEST.MF" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/AppMain.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/base/ConfigHelper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/base/DateUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/base/NumberUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/base/StringUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/base/redis/CONST.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/base/redis/JedisPoolUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/base/redis/JedisReadPoolUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/base/redis/JedisWritePoolUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/bean/AifAccountBean.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/bean/CfgLimitBean.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/bean/InitLimitBean.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/bean/RESULTMAP.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/bean/RecordLimitBean.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/cfg/CONFIGS.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/dao/AccountDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/dao/AifAccountDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/dao/InitLimitDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/AccountService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/AifAccountService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/InitLimitService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/MigrateService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/readConfig.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/testNG.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/writeConfig.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/com/agree/base/gf/limit/dao/TestAifAccountDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/com/agree/base/gf/limit/dao/TestInitLimitDao.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/com/agree/base/gf/limit/services/TestLimitService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/com/agree/base/gf/limit/services/TestMigrateService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/com/agree/base/redis/TestJedisPoolUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/com/agree/base/redis/TestJedisWritePoolUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/com/agree/base/util/TestDateUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/com/agree/base/util/TestList.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/com/agree/base/util/TestNumberUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/com/agree/base/util/TestStringUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/test/com/agree/base/util/TestThreadPool.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/AppMain$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/AppMain.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/ConfigHelper.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/DateUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/NumberUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/StringUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/CONST.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisPoolUtil$Hash.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisPoolUtil$Keys.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisPoolUtil$Lists.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisPoolUtil$Luas.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisPoolUtil$Scan.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisPoolUtil$Sets.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisPoolUtil$Size.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisPoolUtil$SortSet.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisPoolUtil$Strings.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisPoolUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisReadPoolUtil$Hash.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisReadPoolUtil$Keys.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisReadPoolUtil$Lists.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisReadPoolUtil$Luas.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisReadPoolUtil$Pipe.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisReadPoolUtil$Scan.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisReadPoolUtil$Sets.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisReadPoolUtil$Size.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisReadPoolUtil$SortSet.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisReadPoolUtil$Strings.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisReadPoolUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisWritePoolUtil$Hash.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisWritePoolUtil$Keys.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisWritePoolUtil$Lists.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisWritePoolUtil$Luas.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisWritePoolUtil$Pipe.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisWritePoolUtil$Scan.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisWritePoolUtil$Sets.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisWritePoolUtil$Size.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisWritePoolUtil$SortSet.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisWritePoolUtil$Strings.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/base/redis/JedisWritePoolUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/bean/AifAccountBean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/bean/CfgLimitBean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/bean/InitLimitBean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/bean/RESULTMAP.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/bean/RecordLimitBean.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/cfg/CONFIGS.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/dao/AccountDao.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/dao/AifAccountDao.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/dao/InitLimitDao.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/services/AccountService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/services/AifAccountService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/services/InitLimitService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/services/MigrateService$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/services/MigrateService$2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/services/MigrateService$3.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/services/MigrateService$4.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/services/MigrateService$5.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/services/MigrateService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/log4j2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/readConfig.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/testNG.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/writeConfig.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/redis-1.0-SNAPSHOT-jar-with-dependencies.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/redis-1.0-SNAPSHOT-sources.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/redis-1.0-SNAPSHOT.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/failed.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/redis/classes.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/redis/groups.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/redis/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/redis/main.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/redis/methods-alphabetical.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/redis/methods-not-run.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/redis/methods.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/redis/reporter-output.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/redis/testDemo2.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/redis/testng.xml.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/old/redis/toc.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/passed.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/redis/testDemo2.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/redis/testDemo2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/skipped.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/testng.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test/com/agree/base/gf/limit/dao/TestAifAccountDao.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test/com/agree/base/gf/limit/dao/TestInitLimitDao.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test/com/agree/base/gf/limit/services/TestLimitService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test/com/agree/base/gf/limit/services/TestMigrateService.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test/com/agree/base/redis/TestJedisPoolUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test/com/agree/base/redis/TestJedisWritePoolUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test/com/agree/base/util/TestDateUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test/com/agree/base/util/TestList.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test/com/agree/base/util/TestNumberUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test/com/agree/base/util/TestStringUtil.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test/com/agree/base/util/TestThreadPool$1.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test/com/agree/base/util/TestThreadPool$2.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/test/com/agree/base/util/TestThreadPool.class" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/MigrateService.java" afterPath="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/MigrateService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/readConfig.properties" afterPath="$PROJECT_DIR$/src/main/resources/readConfig.properties" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/writeConfig.properties" afterPath="$PROJECT_DIR$/src/main/resources/writeConfig.properties" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/services/MigrateService$3.class" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/services/MigrateService$3.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/services/MigrateService$4.class" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/services/MigrateService$4.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/services/MigrateService$5.class" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/services/MigrateService$5.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/services/MigrateService.class" afterPath="$PROJECT_DIR$/target/classes/com/agree/gf/limit/services/MigrateService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/readConfig.properties" afterPath="$PROJECT_DIR$/target/classes/readConfig.properties" />
+      <change beforePath="$PROJECT_DIR$/target/classes/writeConfig.properties" afterPath="$PROJECT_DIR$/target/classes/writeConfig.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -196,21 +28,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AppMain.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AppMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/AppMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="400">
-              <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+              <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MigrateService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MigrateService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/MigrateService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4925">
-              <caret line="311" column="19" lean-forward="true" selection-start-line="311" selection-start-column="19" selection-end-line="311" selection-end-column="19" />
+            <state relative-caret-position="250">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding>
                 <element signature="method#pipelineConverToRedis#0;class#MigrateService#0" expanded="false" />
                 <element signature="method#pipelineThreadConverToRedis#0;class#MigrateService#0" expanded="false" />
@@ -291,7 +123,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/readConfig.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+              <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -300,8 +132,8 @@
       <file leaf-file-name="writeConfig.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/writeConfig.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="175">
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -346,6 +178,7 @@
       <find>hmset</find>
       <find>getIn</find>
       <find>pipe</find>
+      <find>key</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -395,8 +228,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/AccountService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/agree/AppMain.java" />
         <option value="$PROJECT_DIR$/src/main/resources/writeConfig.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/MigrateService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/readConfig.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/MigrateService.java" />
       </list>
     </option>
   </component>
@@ -440,7 +273,7 @@
     <option name="jreName" value="#JAVA_HOME" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -592,8 +425,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -736,8 +571,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -791,7 +624,7 @@
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.agree.AppMain" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="0 50 0 0" />
+      <option name="PROGRAM_PARAMETERS" value="0 50 0 1" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -1059,7 +892,8 @@
       <workItem from="1530061950275" duration="937000" />
       <workItem from="1530064560062" duration="32824000" />
       <workItem from="1530109451634" duration="4463000" />
-      <workItem from="1530147346835" duration="4645000" />
+      <workItem from="1530147346835" duration="9108000" />
+      <workItem from="1530160604494" duration="76000" />
     </task>
     <servers />
   </component>
@@ -1096,10 +930,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="258157000" />
+    <option name="totallyTimeSpent" value="262696000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1110,11 +944,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.67763156" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.67763156" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6771005" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2549168" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25869894" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1612,38 +1446,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/readConfig.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/writeConfig.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="175">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/MigrateService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4925">
-          <caret line="311" column="19" lean-forward="true" selection-start-line="311" selection-start-column="19" selection-end-line="311" selection-end-column="19" />
-          <folding>
-            <element signature="method#pipelineConverToRedis#0;class#MigrateService#0" expanded="false" />
-            <element signature="method#pipelineThreadConverToRedis#0;class#MigrateService#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/AppMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
-          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+          <caret line="29" column="18" lean-forward="false" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/readConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agree/gf/limit/services/MigrateService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <element signature="method#pipelineConverToRedis#0;class#MigrateService#0" expanded="false" />
+            <element signature="method#pipelineThreadConverToRedis#0;class#MigrateService#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
